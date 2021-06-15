@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Shadows+Into+Light&display=swap');
+
+#navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3; 
+}
+
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+ 
+}
+
+li {
+  float: left;
+  border: 1px solid black;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding:21px 300px;
+  text-align: center;
+  background-color: #0078FF;
+}
+li a:hover {
+  background-color: #009EFF ;
+}
+
+.active {
+  background-color: #009EFF ;
+}
+
+#msg{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 190px;
+  z-index: 2;
+}
+
+.centered {
+  position: relative;
+  top: 100px;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+#kav{
+  position: relative;
+  top: -200px;
+  left: 33%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 100px;
+  z-index: 2;
+}
+
+html {
+  margin-top: 30px;
+  background-color: #eefaff; 
+}
+
+#proj{
+  text-align: center;
+}
+
+@media  (max-width: 768px) {
+   body{
+    width: 100%;
+  }
+}
+
+#welcome-section{
+  height: 580px;
+}
+
+#proj
+{
+   font-family: 'Amatic SC', cursive;
+  width: 100%;
+  font-size: 50px;
+}
+
+.projects-grid{
+  display: flex;
+  margin: 350px; 
+}
+
+.project-image
+{
+ width: 300px;
+ height: 200px; 
+}
+
+.project-tile
+{
+   border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#trib{
+  position: relative;
+  top: -210px;
+}
+
+#prodsur{
+  position: relative;
+  top: 210px;
+  left: -300px
+}
+
+#onlbuiw{
+  position: relative;
+  top: -210px;
+  left: 300px
+}
+
+#doccc{
+  position: relative;
+  top: 210px;
+}
+
+#fr{
+  width: 2%;
+}
+
+#fcc
+{
+  text-align: center;
+}
+
+#gh{
+  text-align: center;
+}
+
+#cd{
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+}
+
+.project-tile{
+  text-decoration: none;
+  color: black;
+}
+
+.project-tiler{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
